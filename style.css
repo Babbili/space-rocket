@@ -1,0 +1,43 @@
+:root {
+    --body-color: hsl(232, 51%, 6%);
+    --title-color: hsl(232, 18%, 97%);
+    --text-color: hsl(232, 18%, 86%);
+    
+    --body-font: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    --h1-font-size: 2.8rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.8rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .8rem;
+    }
+    
+    *, ::before, ::after {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      width:auto;
+      height: 100vh;
+      font-family: var(--body-font);
+      font-size: var(--normal-font-size);
+      line-height: 1.6rem;
+      background: var(--body-color);
+      color: var(--text-color);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .space-rocket {
+        transform: rotateZ(45deg);
+        width: 20%;
+        height: auto;
+    }
+    
