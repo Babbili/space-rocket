@@ -27,7 +27,11 @@
       font-family: var(--body-font);
       font-size: var(--normal-font-size);
       line-height: 1.6rem;
-      background: var(--body-color);
+      background-image: url('./starrynight.svg');
+      background-position: center;
+      background-size: contain;
+      background-repeat: repeat ;
+      background-color: var(--body-color);
       color: var(--text-color);
     }
     img {
