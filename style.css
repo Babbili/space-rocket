@@ -24,6 +24,7 @@
       place-items: center;
       width:auto;
       height: 100vh;
+      overflow: hidden;
       font-family: var(--body-font);
       font-size: var(--normal-font-size);
       line-height: 1.6rem;
@@ -40,8 +41,8 @@
     }
 
     .space-rocket {
-        transform: rotateZ(45deg);
-        width: 20%;
-        height: auto;
+      transform: rotateZ(45deg);
+      width: 30%;
+      height: auto;
     }
     
