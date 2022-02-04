@@ -25,6 +25,7 @@
       width:auto;
       height: 100vh;
       overflow: hidden;
+      position: relative;
       font-family: var(--body-font);
       font-size: var(--normal-font-size);
       line-height: 1.6rem;
@@ -40,6 +41,13 @@
       height: auto;
     }
 
+    .meteor {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+    }
     .space-rocket {
       transform: rotateZ(45deg);
       width: 25%;
