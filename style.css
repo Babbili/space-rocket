@@ -48,9 +48,42 @@
       width: 100%;
       height: auto;
     }
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 1rem;
+    }
     .space-rocket {
       transform: rotateZ(45deg);
       width: 25%;
       height: auto;
     }
-    
+    .hero__content {
+      text-align: center;
+    }
+    .animate-s {
+      display: inline-block;
+      transform: translateY(-20px);
+      opacity: 0.01;
+      transform-origin: top;
+    }
+    .active {
+      transform: translateY(0);
+      opacity: 1;
+      transform-origin: top;
+      transition: all 0.5s ease-in-out;
+    }
+    .hero__text {
+      display: inline-block;
+      transform: translateX(-40px);
+      opacity: 0.01;
+      transform-origin: left;
+    }
+    .animate-r {
+      transform: translateX(0);
+      opacity: 1;
+      transform-origin: left;
+      transition: all 0.5s ease-in-out;
+    }
