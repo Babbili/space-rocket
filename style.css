@@ -76,14 +76,21 @@
       transition: all 0.5s ease-in-out;
     }
     .hero__text {
-      display: inline-block;
+      display: flex;
+      align-items: center;
+      column-gap: .4rem;
+      padding: 1rem;
       transform: translateX(-40px);
       opacity: 0.01;
       transform-origin: left;
+    }
+    .hero__text svg {
+      height: 1.5rem;
+      width: auto;
     }
     .animate-r {
       transform: translateX(0);
       opacity: 1;
       transform-origin: left;
-      transition: all 0.5s ease-in-out;
+      transition: all 0.7s ease-in-out;
     }
